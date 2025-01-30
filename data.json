@@ -1,0 +1,41 @@
+[{
+    "musique": "Lauryn Hill - Doo Wop (That Thing)",
+    "descriptionMusique" : "Un classique des années 2000 qui reste indémodable. Lauryn Hill incarne l’art de mélanger rap et mélodies avec une finesse exceptionnelle, tout en sublimant ses morceaux en harmonisant les chœurs.",
+    "link_youtube" : "https://www.youtube.com/watch?v=T6QKqFPRZSA",
+    "link_spotify" : "https://open.spotify.com/intl-fr/track/0uEp9E98JB5awlA084uaIg",
+    "son" : "Lauryn Hill - Doo Wop (That Thing).mp3",
+    "cover" : "https://i.pinimg.com/736x/ff/b5/70/ffb5705e32ded1698adb55829a7231d7.jpg"
+},
+{
+    "musique": "Blaque - Bring It All To Me",
+    "descriptionMusique" : "Comment faire un top année 2000 sans parler du trio Blaque ? Les paroles sont simples et légères, a ce côté à la fois romantique et énergique qui reste en tête.",
+    "link_youtube" : "https://www.youtube.com/watch?v=h4mjAOgHLvU",
+    "link_spotify" : "https://open.spotify.com/intl-fr/track/1cjBan0t4eBk2Y5j17hdyf",
+    "son" : "Blaque- Bring It All To Me.mp3",
+    "cover" : "https://i.pinimg.com/736x/c0/e7/cd/c0e7cdbed0674b2c448d227a5e218aa1.jpg"
+},
+{
+    "musique": "Alicia Keys - Fallin",
+    "descriptionMusique" : "Alicia Keys, sans doute l'une des artistes les plus talentueuses de son époque. J’écoute cette chanson depuis mes 11 ans, et elle reste intemporelle à mes oreilles. Sa voix est sublime, et c’est toujours un plaisir de la chanter.",
+    "link_youtube" : "https://www.youtube.com/watch?v=Urdlvw0SSEc",
+    "link_spotify" : "https://open.spotify.com/intl-fr/track/0KQx6HOpJueiSkztcS0r7D",
+    "son" : "Alicia Keys - Fallin.mp3",
+    "cover" : "https://i.pinimg.com/736x/28/04/5c/28045c411c5a309aaa8ae1dc71cc8e3b.jpg"
+},
+{
+    "musique": "Brandy Monica - The Boy Is Mine",
+    "descriptionMusique" : "Un véritable classique : ce style de musique old-school, avec des dialogues en introduction et une mélodie typique des années 2000, incarne parfaitement l’époque.",
+    "link_youtube" : "https://www.youtube.com/watch?v=HRxDR-83XBo",
+    "link_spotify" : "https://open.spotify.com/intl-fr/track/6sHsXIJoEN5JpdkGMQDJxt",
+    "son" : "Brandy Monica - The Boy Is Mine (Album Version) [Official Audio].mp3",
+    "cover" : "https://i.pinimg.com/736x/0a/a7/a8/0aa7a8455b5a8159a8ae77b0a7b5b156.jpg"
+},
+{
+    "musique": "Mary j Blige - I can love you",
+    "descriptionMusique" : "On termine avec un morceau moins connu, mais qui mérite largement d’être mis en avant. Son refrain accrocheur et rythmé mélange parfaitement l’énergie du hip-hop et l’ambiance des années 2000.",
+    "link_youtube" : "https://www.youtube.com/watch?v=tSQCvb-UEH0",
+    "link_spotify" : "https://open.spotify.com/intl-fr/track/4MTHIKGWNTBoubzDMkXFfa",
+    "son" : "Mary j Blige - I can love you , ft. lil kim.mp3",
+    "cover" : "https://i.pinimg.com/736x/3a/d0/9b/3ad09b4b19afb80eb3e0fb2535ab9bb8.jpg"
+}]
+

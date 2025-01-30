@@ -1,0 +1,405 @@
+*,
+        *::before
+        *::after {
+            box-sizing: border-box;
+        }
+.head {
+    background-color: pink;
+    border-bottom: solid black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding-left: 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+logo {
+    width: 20px; 
+    height: 30px;
+}
+.lien-bottom{
+  position: absolute;
+  top: 8px;  
+  right: 100px;  
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.7rem;
+  color: #ffffff;
+  background-color: #cf1d9d;
+  padding: 12px 12px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lien-bottom:hover {
+  background-image: url(img/pailette_rose.jpg);
+  transform: scale(1.1);
+  clip-path: polygon(99.44% 57.43%,80.84% 68.57%,79.71% 90.22%,58.68% 84.94%,42.57% 99.44%,31.43% 80.84%,9.78% 79.71%,15.06% 58.68%,0.56% 42.57%,19.16% 31.43%,20.29% 9.78%,41.32% 15.06%,57.43% 0.56%,68.57% 19.16%,90.22% 20.29%,84.94% 41.32%);
+  /*grace à https://css-generators.com/starburst-shape/ */
+  width: 8rem;
+  height: 1rem;
+}
+
+.lien-top {
+  position: absolute;
+  top: 15px;
+  right: 270px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lien-top::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 3px;
+  background: #ff69b4;
+  transition: left 0.3s;
+}
+
+.lien-top:hover::after {
+  left: 0;
+}
+
+
+.fixed-parallax .image {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+  }
+  .fixed-parallax .image.one {
+    background-image: linear-gradient(to top, pink 10%, rgba(255, 255, 255, 0) 50%), url("img/Annee2000.png");
+    height: 100vh;
+}
+  
+  .fixed-parallax .image.three {
+    background-image: linear-gradient(0deg, bisque 10%, rgba(255, 255, 255, 0)50%), url("img/backgroud1.jpg");
+    height: 70vh;
+  }
+
+  .fixed-parallax .imagefour {
+    background-image: linear-gradient(to top, pink 10%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 10%, rgba(255, 255, 255, 0) 50%),
+    url(https://i.pinimg.com/736x/61/c7/46/61c746701d60266d09f8f68daf71b2f7.jpg);;
+    height: 70vh;
+  }
+  
+  .image.one, .titreform{
+    color: rgb(255, 94, 121);
+    margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            font-family: "Lacquer", system-ui;
+            font-style: normal;
+            font-size: 35px;
+            text-align: center;
+  }
+  .content {
+    text-align: center;
+    padding: 50px 30px;
+    height: 40vh;
+
+  }
+  .content0 {
+    background-color: pink;
+  }
+  .content1{
+    background-image: url(img/léopard\ rose.jpg);
+  }
+  .content2{
+    background-image: url(img/af.jpg);
+  }
+  .content3{
+    background-image: url(img/bm.jpg);
+  }
+  .content4 {
+    background-image: url(img/étoile_leopard.jpg);
+  }
+  .content5 {
+    background-image: url(img/95b7fa713c4042065288649eb8373f9d.jpg);
+    height: fit-content;
+  }
+  .audio {
+    display: none;
+  }
+
+  .music-container {
+    display: flex;              
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.music-details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  left: 130px;
+  bottom: 50px;
+}
+.titre {
+  color: white;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.paragraphe {
+  font-family: "New Rocker", system-ui;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+.play {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #c800ff, #ff44f3f6);
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 0, 255, 0.5), 0 2px 5px rgba(0, 255, 255, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  right: 10px;
+}
+.play:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(255, 0, 255, 0.7), 0 4px 10px rgba(0, 255, 255, 0.7);
+}
+.play:active {
+  transform: scale(0.95);
+}
+.cadre {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('img/Capture\ d’écran\ 2024-12-09\ 172312.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+    width: 300px;
+    height: 100px; 
+    position:relative;
+    left: 250px;
+}
+.fenetre {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fenetre-content {
+  background-image: url(img/fenetre.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "UnifrakturCook", cursive;
+  font-size: 2rem;
+}
+
+.fenetre-content .close {
+  color: rgb(244, 134, 153);
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.fenetre-content .close:hover,
+.fenetre-content .close:focus {
+  color: rgb(220, 21, 127);
+  text-decoration: none;
+}
+
+label {
+  font-size: 2rem;
+  font-family: "Just Me Again Down Here", serif;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+  color: rgb(255, 94, 121);
+}
+
+input, textarea {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid rgb(255, 105, 180);
+  border-radius: 10px;
+  background: linear-gradient(145deg, rgb(240, 240, 240), rgb(217, 217, 217));
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: rgb(51, 51, 51);
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+
+.button_submit {
+  clip-path: polygon(99.44% 57.43%,80.84% 68.57%,79.71% 90.22%,58.68% 84.94%,42.57% 99.44%,31.43% 80.84%,9.78% 79.71%,15.06% 58.68%,0.56% 42.57%,19.16% 31.43%,20.29% 9.78%,41.32% 15.06%,57.43% 0.56%,68.57% 19.16%,90.22% 20.29%,84.94% 41.32%);
+  background-color: rgb(255, 94, 121);
+  border: none;
+  width: 130px;
+  height: 50px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.7rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.button_submit:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 54, 87);
+}
+
+.resultat {
+  background-color: pink;
+  font-family: "Just Me Again Down Here", serif;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+  color: rgb(255, 94, 121);
+  height: fit-content;
+  width: auto;
+  padding: 10px;
+}
+.resultat_texte {
+  display: flex; 
+justify-content: center; 
+align-items: center;
+font-size: 2.5rem;
+}
+
+footer {
+  background-color: rgba(255, 94, 121, 0.5);
+  height: fit-content;
+  padding-bottom: 5px;
+}
+.footer_credit {
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.footer_credit2 {
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.credits {
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  background-color: rgba(255, 94, 121, 0.5);
+  width: 100%;
+  padding-left: 10px;
+}
+
+.credits p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.toggle-button {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-button .arrow {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.toggle-button.open .arrow {
+  transform: rotate(180deg);
+}
+
+.footer_cgu {
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.cgu {
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  background-color: rgba(255, 94, 121, 0.5);
+  width: 100%;
+  padding-left: 10px;
+}
+
+.cgu p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.cgu ul {
+  font-size: 14px;
+  color: #ddd;
+}
+.toggle-button-cgu {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-button-cgu .arrow {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.toggle-button-cgu.open .arrow {
+  transform: rotate(180deg);
+}
+
+.footer_logo {
+  width: 40px;
+  height: auto;
+  vertical-align: right;
+  margin-left: 10px;
+  position: relative;
+  bottom: 50px;
+  float: right;
+  padding-right: 20px ;
+}
+
+input::placeholder, 
+textarea::placeholder {
+    color: #a1a1a1;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+

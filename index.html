@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lola Blog</title>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="sae.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lacquer&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lacquer&family=New+Rocker&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="head"><img id="logo" src="img/L.png" alt=""> <a href="#top" class="lien-top">Retourner en haut de la page</a> <a href="#bottom2" class="lien-bottom">Formulaire</a> </header>
+   
+    <div class="fixed-parallax">
+        <div class="image one">
+            <h1> Mon top 5 musiques <br> Version Années 2000 </h1>
+        </div>
+        
+        <div class="liste-musiques"></div>
+        
+        <div id="bottom"> </div>
+
+        <div class="content5 content">
+
+            <div id="bottom2"> </div>
+
+        <h1 class="titreform">Formulaire : partager votre musique des Années 2000 </h1>
+            <br><br>
+
+    <form id="music-form" class="formulaire">
+        <label for="titre">Titre de la musique :</label>
+        <input type="text" id="titre" name="titre" placeholder="Entrez le titre de la musique" required>
+        <br><br>
+
+        <label for="description">Description de la musique :</label>
+        <textarea id="description" name="description" placeholder="Décrivez la musique en quelques mots" required></textarea>
+        <br><br>
+
+        <label for="mail">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+        <br><br>
+
+        <label for="url">Lien pour écouter le morceau :</label>
+        <input type="url" id="url" name="url" placeholder="Ajoutez un lien vers le morceau (YouTube, Spotify...)" required>
+        <br><br>
+        
+        <button type="button" id="button" class="button_submit">Envoyer</button>
+    </form>
+</div> </div>
+
+    <div id="result"></div>
+
+    <div id="fenetre" class="fenetre">
+        <div class="fenetre-content">
+          <span class="close">&times;</span>
+          <p>Votre réponse a bien été enregistrée<br> ☆ Merci ★</p>
+        </div>
+      </div>
+    
+      <footer> <div class="footer_credit">
+        <div class="toggle-button">
+               Afficher les crédits
+            <span class="arrow">ᐯ</span>
+        </div>
+        <div class="credits">
+            <p>Image de fond : Pinterest, Canva</p>
+            <p>Icônes : Pinterest</p>
+            <p>Logo : Réalisé sur Canva</p>
+            <p>Image de cover : Pinterest</p>
+            <p>Typographie : Google Font</p>
+        </div></div>
+
+        <div class="footer_cgu">
+            <div class="toggle-button-cgu">
+                Conditions Générales d'Utilisation
+              <span class="arrow">ᐯ</span>
+            </div>
+            <div class="cgu">
+              <p>Gestion des données personnelles : Le Site respecte la réglementation en matière de protection des données personnelles, notamment le RGPD. Les informations collectées sont traitées conformément à notre Politique de confidentialité.</p>
+              <p>Responsabilité de l'utilisateur :
+                En utilisant le Site, vous vous engagez à : <br>
+                <ul>
+                <li> Ne pas utiliser le Site à des fins illicites, frauduleuses ou malveillantes.</li>
+                <li> Ne pas perturber le bon fonctionnement du Site ou compromettre son sécurité.</li>
+            </ul>
+            </p>
+                <p>Droits de copie et restrictions : Vous êtes autorisé à consulter, télécharger et imprimer des parties du contenu du Site à des fins strictement personnelles et non commerciales, sous réserve de respecter les droits d'auteur et toute autre mention de propriété figurant sur le contenu.</p>
+            </div>
+          </div>
+<p class="footer_credit2"> © Tous les extraits de musique sur ce site sont sous licence Creative Commons</p> 
+
+<a href="https://www.instagram.com/lol_a.b/"><img class="footer_logo" src="img/9dfb494f082c73dfea8b9dce9950aa31-removebg-preview.png" alt="Mon Instagram"></a>
+
+        </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
